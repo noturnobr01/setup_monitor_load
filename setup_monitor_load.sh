@@ -10,8 +10,8 @@ cat << 'EOF' > $SCRIPT_PATH
 # Defina o limite de load average (alterado para 700)
 LIMIT=700
 
-# Defina o tempo de monitoramento em segundos (5 minutos = 300 segundos)
-MONITOR_TIME=300
+# Defina o tempo de monitoramento em segundos (10 minutos = 600 segundos)
+MONITOR_TIME=600
 
 # Função para obter o load average atual (1 minuto)
 get_load_average() {
